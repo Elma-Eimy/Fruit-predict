@@ -3,6 +3,8 @@ from torchvision import transforms
 from PIL import Image
 import numpy as np
 import new_train
+import glob
+import os.path
 
 class_names = ['Apple Braeburn', 'Apple Crimson Snow', 'Apple Golden 1', 'Apple Golden 2', 'Apple Golden 3',
                'Apple Granny Smith', 'Apple Pink Lady', 'Apple Red 1', 'Apple Red 2', 'Apple Red 3',
